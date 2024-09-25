@@ -1,0 +1,95 @@
+<!-- <p>home works!</p> -->
+
+<h2>Welcome to easyBuy.</h2>
+
+<ngb-carousel *ngIf="images">
+  <ng-template ngbSlide>
+    <div class="wrapper">
+      <img [src]="images[0]" />
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="wrapper">
+      <img [src]="images[1]" />
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="wrapper">
+      <img [src]="images[2]" />
+    </div>
+  </ng-template>
+  <ng-template ngbSlide>
+    <div class="wrapper">
+      <img [src]="images[3]" />
+    </div>
+  </ng-template>
+</ngb-carousel>
+
+<div class="explore-menu-section pt-5 pb-5" id="exploreMenuSection">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 class="menu-section-heading">EXPLORE PRODUCTS</h2>
+      </div>
+      <div class="col-12 col-md-6 col-lg-4 pointer" (click)="gotoLogin()">
+        <div class="shadow menu-item-card p-3 mb-3">
+          <img
+            src="../../../assets/Images/smartphone.jpg"
+            class="menu-item-image w-100"
+          />
+          <h2 class="menu-card-title">SMART PHONES</h2>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 pointer" (click)="gotoLogin()">
+        <div class="shadow menu-item-card p-3 mb-3">
+          <img
+            src="../../../assets/Images/explorer 2.jpg"
+            class="menu-item-image w-100"
+          />
+          <h2 class="menu-card-title">WATCHES</h2>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 pointer" (click)="gotoLogin()">
+        <div class="shadow menu-item-card p-3 mb-3">
+          <img
+            src="../../../assets/Images/cooler.jpg"
+            class="menu-item-image w-100"
+          />
+          <h2 class="menu-card-title">HOME APPLIANCES</h2>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 pointer" (click)="gotoLogin()">
+        <div class="shadow menu-item-card p-3 mb-3">
+          <img
+            src="../../../assets/Images/explorer 1.jpg"
+            class="menu-item-image w-100"
+          />
+          <h2 class="menu-card-title">FASHION AND CLOTHING</h2>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 pointer" (click)="gotoLogin()">
+        <div class="shadow menu-item-card p-3 mb-3">
+          <img
+            src="../../../assets/Images/explorer 3.jpg"
+            class="menu-item-image w-100"
+          />
+          <h2 class="menu-card-title">STATIONERIES</h2>
+        </div>
+      </div>
+
+      <div class="col-12 col-md-6 col-lg-4 pointer" (click)="gotoLogin()">
+        <div class="shadow menu-item-card p-3 mb-3">
+          <img
+            src="../../../assets/Images/explorer 5.jpg"
+            class="menu-item-image w-100"
+          />
+          <h2 class="menu-card-title">GROCERIES</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
